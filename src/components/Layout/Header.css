@@ -1,0 +1,81 @@
+
+
+  
+  body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  
+  .header-vui {
+    display: flex;
+    
+    justify-content: space-between;
+   align-items: center;
+    background-color: black;
+
+    color: white;
+  }
+  
+
+  .logo-vui .logohead {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10vh;
+    border: 1px solid white;
+    margin-left: 5vh;
+  }
+  
+  
+  .nav-vui {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    justify-content: space-between;
+    
+  }
+  
+  .nav-vui .aheadvui {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-vui .aheadvui:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .host-button {
+    background-color: #a078ff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .host-button:hover {
+    background-color: #915ef0;
+  }
+  
+  .menu-icon .que {
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 3px;
+  }
+  .menu-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 3vh;
+    height: 3vh;
+   
+  }
+  

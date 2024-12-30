@@ -1,0 +1,97 @@
+.user-profile-container {
+    width: 70%;
+    margin-top: 20vh;
+    margin-left: 20%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   margin-bottom: 10vh;
+    border-radius: 10px;
+   
+    background-color: #fff;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  
+  .user-details {
+    text-align: left;
+  }
+  
+  .user-name {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .join-date {
+    margin: 0;
+    color: #666;
+  }
+  
+  .verification-status {
+    
+    width: 30%;
+    
+  }
+  
+  .verification-email {
+    
+    
+    gap: 5px;
+    color: green;
+    font-weight: bold;
+
+  }
+  
+  .verification-icon {
+    color: green;
+  }
+  
+  .bio {
+    font-size: 1em;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .share-profile-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .share-profile-button .share-icon {
+    font-size: 1.2em;
+  }
+  
+  .share-profile-button:hover {
+    background-color: #333;
+  }
+  .profileverichua{
+    display: flex;
+  }
+  .bio-chua{
+    width: 70%;
+   text-align: left;
+  }
+  .veri-title{
+    color: black;
+  }
